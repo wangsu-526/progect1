@@ -1073,7 +1073,10 @@ position: relative;
     width: 10rem;
     text-align: center;
     margin-top:1rem;
-
+}
+.my-img a{
+    color: #fff;
+    z-index: 1000;
 }
 .my-img img {
     width: 1.3rem;
@@ -1106,7 +1109,99 @@ position: relative;
     width: 0.6rem;
     height: 0.5rem;
 }
-/*关于我的结束*/
+.my-nav{
+    width: 10rem;
+    background: #fff;
+    color: #c5c5c5;
+}
+.my-nav-1{
+    font-size: 13px;
+    height: 1rem;
+    line-height: 1rem;
+    border-bottom: 0.013rem solid #ececec;
+    width: 9rem;
+    margin: auto;
+}
+.my-nav-1::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.my-nav-11{
+    float: left;
+    width: 5rem;
+}
+
+.my-nav-11 .my-nav-110{
+    background: url("../images/mc_01.png")no-repeat;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-size: 100% 100%;
+    display: inline-block;
+}
+.my-nav-11 .my-nav-111{
+    background: url("../images/mc_02.png")no-repeat;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-size: 100% 100%;
+    display: inline-block;
+}
+.my-nav-113{
+    background: url("../images/mc_03.png")no-repeat;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-size: 100% 100%;
+    display: inline-block;
+}
+.my-nav-114{
+    background: url("../images/mc_04.png")no-repeat;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-size: 100% 100%;
+    display: inline-block;
+}
+.my-nav-31{
+    padding: 0.3rem 0;
+}
+.my-nav-311 {
+    float: left;
+    width: 5rem;
+}
+.my-nav-31.solid{
+    border-bottom: 0.013rem solid #eeeeee;
+
+}
+.my-nav-312{
+    text-align: right;
+}
+.my-nav-12{
+    float: right;
+}
+.my-nav-2{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    border-bottom: 0.15rem solid #f6f6f6;
+}
+.my-nav-3{
+    width: 9rem;
+    margin: auto;
+}
+.my-nav-2>div{
+    float: left;
+    width: 2rem;
+}
+.my-nav-2 img{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: inline-block;
+    margin-top: 0.3rem;
+}
+.my-nav-2 h6{
+    font-size: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+    /*关于我的结束*/
 
 
 /*分类页*/
