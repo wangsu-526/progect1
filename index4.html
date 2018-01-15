@@ -14,7 +14,7 @@
         <div class="my-header">
 
             <a href="index5.html" class="my-i1"><img src="images/set_w.png" alt=""></a>
-            <a href="" class="my-i2"><img src="images/more_w.png" alt=""></a>
+            <div href="" class="my-i2"><img src="images/more_w.png" alt=""></div>
             <div class="my-img">
                 <div class="my-img1"><img src="images/member_w.png" alt=""></div>
                 <a href="index6.html">点击登录</a>
@@ -116,7 +116,7 @@
         <div class="footer-nav">
             <h5>
                 <i class="iconfont icon-shouye"></i>
-                <a href="javascript:;">首页</a>
+                <a href="index.html">首页</a>
             </h5>
             <h5>
                 <i class="iconfont icon-leimupinleifenleileibie"></i>
@@ -135,6 +135,37 @@
                 <a href="index4.html">我的</a>
             </h5>
         </div>
+        <div class="my-footer">
+            <span class="arow"></span>
+            <div>
+                <i class="iconfont icon-shouye"></i>
+                <a href="index.html">首页</a>
+            </div>
+            <div>
+                <i class="iconfont icon-leimupinleifenleileibie"></i>
+                <a href="index2.html">分类</a>
+            </div>
+            <div>
+                <i class="iconfont icon-nanshi"></i>
+                <a href="index3.html">男士</a>
+            </div>
+            <div>
+                <i class="iconfont icon-huiyuan-copy"></i>
+                <a href="index5.html">消息</a>
+            </div>
+            <div>
+                <i class="iconfont icon-cart--copy"></i>
+                <a href="index1.html">购物车</a>
+            </div>
+        </div>
     </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script>
+        $(".my-i2").click(
+                function(){
+                    $(".my-footer").toggleClass("show")
+                }
+        );
+    </script>
 </body>
 </html>

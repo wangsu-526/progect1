@@ -310,11 +310,11 @@
             </h5>
             <h5>
                 <i class="iconfont icon-leimupinleifenleileibie"></i>
-                <a href="javascript:;">分类</a>
+                <a href="index2.html">分类</a>
             </h5>
             <h5>
                 <i class="iconfont icon-nanshi"></i>
-                <a href="index3.html">男士</a>
+                <a href="javascript:;">男士</a>
             </h5>
             <h5>
                 <i class="iconfont icon-cart--copy"></i>
@@ -347,31 +347,24 @@
         );
         $(".xxxx").click(
                 function(){
-                    $(".man-shopping").hide()
+                    $(".man-shopping").hide();
                 }
         );
         $(".man-quxiao").click(
                 function(){
-                    $(".man-xihuan").hide()
+                    $(".man-xihuan").hide();
+                    $(".footer-nav").show();
                 }
         );
         $(".man-details-p div i").click(
                 function(){
-                    $(".man-xihuan").show()
+                    $(".man-xihuan").show();
+                    $(".footer-nav").hide();
                 }
         );
         $(".man-shang-21 h6").click(function(){
             $(this).toggleClass("red");
-        });
-//        $(".man-shang-21 h6").click(
-//                function(){
-//                    if($(this).css('background','#fff')){
-//                        $(this).css("background","red")
-//                    }else if($(this).css("background","red")){
-//                        $(this).css("background","#000")
-//                    }
-//                }
-//        )
+        })
 
     </script>
 </body>
