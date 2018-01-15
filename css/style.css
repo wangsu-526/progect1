@@ -1010,15 +1010,18 @@ position: relative;
     width: 10rem;
     height: 6rem;
     animation:mymove 20s 0s infinite;
-    overflow: hidden;
     color: #fff;
     position: relative;
     font-size: 0.35rem;
+    z-index: 1;
 }
+
 .bigbeijing{
     position: absolute;
     left: 0;
     top: 0;
+    width: 100%;
+    height: 100%;
 }
 .my-i1{
     position: absolute;
@@ -1072,7 +1075,10 @@ position: relative;
 .my-img{
     width: 10rem;
     text-align: center;
-    margin-top:1rem;
+    padding-top:1rem;
+    position: absolute;
+    top:5%;
+    z-index:1;
 }
 .my-img a{
     color: #fff;
@@ -1096,9 +1102,11 @@ position: relative;
     width: 10rem;
     display: flex;
     justify-content: space-around;
-    margin-top: 0.8rem;
+    margin-top: 0.67rem;
     background: rgba(0,0,0,0.4);
     padding: 0.35rem 0;
+    position: absolute;
+    top: 59%;
 }
 .my-li div{
     width:3.3rem;
