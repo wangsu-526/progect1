@@ -1025,13 +1025,15 @@ position: relative;
 }
 .my-i1{
     position: absolute;
-    left: 0.1rem;
-    top: 0.1rem;
+    left: 1%;
+    top: 1%;
+    z-index:1;
 }
 .my-i2{
     position: absolute;
     right: 0.1rem;
     top: 0.1rem;
+    z-index:1;
 }
 .my-i1 img,.my-i2 img{
     width: 0.4rem;
@@ -1163,6 +1165,31 @@ position: relative;
 }
 .my-nav-114{
     background: url("../images/mc_04.png")no-repeat;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-size: 100% 100%;
+    display: inline-block;
+}
+.my-nav-115{
+    background: url("../images/rmaservice.png")no-repeat;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-size: 100% 100%;
+    display: inline-block;
+}.my-nav-116{
+    background: url("../images/feedback.png")no-repeat;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-size: 100% 100%;
+    display: inline-block;
+}.my-nav-117{
+    background: url("../images/address.png")no-repeat;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-size: 100% 100%;
+    display: inline-block;
+}.my-nav-118{
+    background: url("../images/tel.png")no-repeat;
     width: 0.4rem;
     height: 0.4rem;
     background-size: 100% 100%;
