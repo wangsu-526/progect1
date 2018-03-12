@@ -509,6 +509,15 @@ position: relative;
     padding: 0.4rem 0;
     border-bottom: 0.013rem solid #e9e9e9;
 }
+.man-shang-21 input{
+    width: 37px;
+    height: 29px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    background: #fff;
+    border:1px solid #ccc;
+}
 .man-shang-2 h6{
     float: left;
     width: 1.2rem;
@@ -685,8 +694,8 @@ position: relative;
 .register-phone .possword{
     width: 6rem;
 }
-.register-phone .huoqu{
-    width: 2rem;
+.register-phone #btn{
+    width: 2.1rem;
     background: #fff;
 }
 .register-Obtain{
@@ -779,11 +788,11 @@ position: relative;
     clear: both;
 }
 .Login-2 .xian{
-    width: 7.5rem;
+    width: 7.3rem;
     float: left;
 }
-.Login-2 .huoqu{
-    width: 1.8rem;
+.Login-2 #btn{
+    width:2.1rem;
     background: #fff;
     border: none;
     height: 1.5rem;
@@ -1002,14 +1011,16 @@ position: relative;
 }
 .shopping-cart .shopping-p a{
     width: 1rem;
-    height: 0.6rem;
+    height: 0.5rem;
     background: red;
     color: #fff;
-    line-height: 0.6rem;
+    line-height: 0.5rem;
     border: none;
     text-align: center;
     margin: 0;
     padding: 0.15rem;
+    border-radius: 3px;
+    margin-right: 0.14rem;
 }
 
 /*关于我的开始*/
@@ -1141,6 +1152,7 @@ position: relative;
     width: 10rem;
     background: #fff;
     color: #c5c5c5;
+    margin-bottom: 93px;
 }
 .my-nav-1{
     font-size: 0.35rem;

@@ -8,7 +8,15 @@
     <script src="js/iconfont.js"></script>
     <link rel="stylesheet" href="css/iconfont.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .classify-list .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height:160px;
 
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -80,9 +88,36 @@
                 精彩活动
             </div>
             <div class="classify-list">
-                <img src="images/homepage19.jpg" alt="">
+                <!--<img src="images/homepage19.jpg" alt="">
                 <img src="images/homepage18.jpg" alt="">
-                <img src="images/homepage16.jpg" alt="">
+                <img src="images/homepage16.jpg" alt="">-->
+                <link rel="stylesheet" href="css/swiper.min.css">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image:url(images/homepage19.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(images/homepage18.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(images/homepage16.jpg)"></div>
+                    </div>
+                </div>
+                <script src="js/swiper.min.js"></script>
+                <script>
+                    var swiper = new Swiper('.classify-list .swiper-container', {
+                        effect: 'coverflow',
+                        grabCursor: true,
+                        centeredSlides: true,
+                        slidesPerView: 'auto',
+                        coverflowEffect: {
+                            rotate: 50,
+                            stretch: 0,
+                            depth: 100,
+                            modifier: 1,
+                            slideShadows : true
+                        },
+                        pagination: {
+                            el: '.classify-list .swiper-pagination'
+                        }
+                    });
+                </script>
             </div>
             <!--<script>
                 var curIndex = 0;
